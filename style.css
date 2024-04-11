@@ -45,7 +45,7 @@
     margin-top: 5%;
 }
 
-.img {
+.img, #col2, .col2_1 {
     width: 33%;
 
 }
@@ -73,8 +73,13 @@
     padding-bottom: 1%;
 }
 
-.cont {
+#conttxt, #contimg {
     width: 50%;
+    margin-right: 5%;
+}
+
+#conttxt {
+    margin-left: 10%;
 }
 
 .neg  {
@@ -84,3 +89,56 @@
 .neg, .txt {
     text-align: justify;
 }
+
+#artic, .cntimg {
+    display: flex; 
+}
+
+#fontr {
+    background-color: rgba(15, 15, 15, 0.552);
+    display: flex;
+}
+
+#sepa {
+    display: flex;
+    width: 67%;
+}
+
+.txtblan, #año {
+    color: white;
+}
+
+#cent {
+    margin-left: 10%;
+}
+
+#fonneg {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width:600px ){
+    #fontr, #artic, .cntimg {
+        display: block;
+    }
+
+    #conttxt {
+        margin-left: 0%;
+    }
+
+    .col2_1 {
+        margin-left: 30%;
+        width: 100%;
+    }
+
+    #col2 {
+        width: 100%;
+    }
+
+    #conttxt {
+        width: 100%;
+    }
+}
+
