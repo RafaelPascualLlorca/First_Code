@@ -119,7 +119,51 @@
     text-align: center;
 }
 
+@media screen and (max-width:1400px ) {
+    #maps {
+        width: 500px;
+        height: 500px;
+    }
+
+    #pres, #pres2 {
+        font-size: 40px;
+    }
+
+    #pro {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:1000px ) {
+    #maps {
+        width: 400px;
+        height: 500px;
+    }
+
+    #pres, #pres2 {
+        font-size: 27px;
+    }
+
+}
+
 @media screen and (max-width:600px ){
+    #feed {
+        font-size: 30px;
+    }
+
+    #crit {
+        font-size: 20px;
+    }
+
+    #pres {
+        font-size: 25px;
+    }
+
+    #pres2 {
+        font-size: 20px;
+    }
+
     #fontr, #artic, .cntimg {
         display: block;
     }
@@ -140,5 +184,11 @@
     #conttxt {
         width: 100%;
     }
+
+    #maps {
+        height: 300px;
+        width: 450px;
+    }
+
 }
 
