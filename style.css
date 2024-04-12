@@ -39,19 +39,30 @@
     font-size: 30px;
 }
 
-.cntimg {
+#imgs{
+    width: 100%;
     display: flex;
-    text-align: center;
-    margin-top: 5%;
 }
 
-.img, #col2, .col2_1 {
+.cntimg {
+    width: 33%;
+    text-align: center;
+}
+
+.block, .ima {
+    display: block;
+}
+
+#col2, .col2_1 {
     width: 33%;
 
 }
 
 .ima {
     width: 70%;
+    padding-left: 15%;
+    padding-top: 3%;
+    margin-top: 5%;
 }
 
 #feed, #crit {
@@ -73,7 +84,7 @@
     padding-bottom: 1%;
 }
 
-#conttxt, #contimg {
+#conttxt, #contmaps {
     width: 50%;
     margin-right: 5%;
 }
@@ -92,6 +103,10 @@
 
 #artic, .cntimg {
     display: flex; 
+}
+
+.cntimg {
+    width: 100%;
 }
 
 #fontr {
@@ -164,7 +179,7 @@
         font-size: 20px;
     }
 
-    #fontr, #artic, .cntimg {
+    #fontr, #artic {
         display: block;
     }
 
@@ -187,7 +202,36 @@
 
     #maps {
         height: 300px;
-        width: 450px;
+         width: 450px;
+    }
+
+    .ima {
+        width:27%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .cntimg {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    #imgs{
+        width: 100%;
+    }
+
+    #imgs{
+        width: 100%;
+        display: block;
+    }
+    
+    .cntimg {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .block, .ima {
+        display: flex;
     }
 
 }
